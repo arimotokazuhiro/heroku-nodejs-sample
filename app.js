@@ -1,8 +1,5 @@
-var express = require('express');
-    app = express();
-
-app.use(express.static('public'));
-
-// 3000ポートで待ち受ける
-app.listen(process.env.PORT || 3000);
-console.log('server starting...');
+{
+  "name": "Heroku NodeJS Sample",
+  "description": "これはNodeJSで作成されたサンプルのHerokuアプリです。",
+  "repository": "https://github.com/arimotokazuhiro/heroku-nodejs-sample.git"
+}
